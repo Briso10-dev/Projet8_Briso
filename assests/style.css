@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montaga&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Variabilisation */
+:root{
+    --primary-color:#C6754D;
+     --secondary-color: #2B1105;
+     --color-text: #FCF9F7;
+    --font-default: 10px;
+    --font-family: "Montaga", serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    bottom: none;
+}
+html{
+    font-size: var(--font-default);
+}
+body{
+    font-family: var(--font-family);
+    width: 100vw;
+    overflow-x: hidden;
+}
+.text-primary-color{
+    color: var(--primary-color);
+}
+.bg-primary-color{
+    background: var(--primary-color);
+}
+.bg-text{
+     color: var(--color-text);
+}
+.bg-border{
+    border-color: var(--secondary-color);
+}
